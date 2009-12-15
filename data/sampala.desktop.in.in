@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+_Name=Sampala
+_GenericName=Sample Vala application
+_Comment=Vala application that can serve as a learnign example
+Exec=sampala
+Icon=sampala
+Terminal=false
+Categories=Programming
+StartupNotify=true

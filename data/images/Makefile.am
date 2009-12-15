@@ -1,6 +1,6 @@
 # Makefile.am
 
-imagesdir = $(pgkdatadir)/images
+imagesdir = $(pkgdatadir)/images
 images_DATA = \
 	gauge.png \
 	needle.png

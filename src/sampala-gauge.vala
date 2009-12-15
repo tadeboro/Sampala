@@ -22,6 +22,6 @@ public class Sample.Gauge : Label
 {
 	public Gauge()
 	{
-		set_label( _"Sample gauge") );
+		set_label( _("Sample gauge") );
 	}
 }

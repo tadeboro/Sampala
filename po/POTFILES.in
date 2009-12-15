@@ -1,2 +1,3 @@
-data/imagination.desktop.in.in
-src/imagination.vala
+[encoding: UTF-8]
+data/sampala.desktop.in.in
+src/sampala-gauge.vala

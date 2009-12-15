@@ -2,8 +2,8 @@ bin_PROGRAMS = sampala
 
 sampala_SOURCES = \
 	sampala.vala \
-	samplegauge.vala \
-	sampleapp.vala
+	sampala-gauge.vala \
+	sampala-app.vala
 
 INCLUDES = \
 	-include config.h \

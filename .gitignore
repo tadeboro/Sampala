@@ -1,3 +1,5 @@
+*.swp
+*.pot
 Makefile
 Makefile.in
 aclocal.m4

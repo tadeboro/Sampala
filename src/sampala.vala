@@ -16,6 +16,8 @@
 ** Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 */
 
+using Sample;
+
 int
 main( string[] args )
 {
@@ -25,7 +27,7 @@ main( string[] args )
 
 	Gtk.init( ref args );
 
-	var test = new Sample.App();
+	var test = new App();
 	test.show();
 
 	Gtk.main();

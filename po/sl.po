@@ -1,16 +1,16 @@
-# Slovenian translations for Imagination package
-# Slovenski prevodi paketa Imagination.
-# Copyright (C) 2009 THE Imagination'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Imagination package.
+# Slovenian translations for Sampala package
+# Slovenski prevodi paketa Sampala.
+# Copyright (C) 2009 THE Sampala'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Sampala package.
 #  <tadeboro@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Imagination 3.0\n"
-"Report-Msgid-Bugs-To: <tadeboro@gmail.com>\n"
-"POT-Creation-Date: 2009-12-14 13:46+0100\n"
-"PO-Revision-Date: 2009-12-14 13:54+0100\n"
-"Last-Translator:  <tadeboro@gmail.com>\n"
+"Project-Id-Version: Sampala 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-15 18:09+0100\n"
+"PO-Revision-Date: 2009-12-15 18:09+0100\n"
+"Last-Translator: Tadej Borovšak <tadeboro@gmail.com>\n"
 "Language-Team: Slovenian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,18 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
 
-#: ../data/imagination.desktop.in.in.h:1
-msgid "A DVD slideshow maker"
-msgstr "Izdelovalec DVD predstavitev"
+#: ../data/sampala.desktop.in.in.h:1
+msgid "Sampala"
+msgstr "Sampala"
 
-#: ../data/imagination.desktop.in.in.h:2
-msgid "A lightweight DVD slideshow maker using GTK+2"
-msgstr "Lahkokategorni izdelovalec DVD predstavitev"
+#: ../data/sampala.desktop.in.in.h:2
+msgid "Sample Vala application"
+msgstr "Vzorčni Vala program"
 
-#: ../data/imagination.desktop.in.in.h:3 ../src/imagination.vala:9
-msgid "Imagination"
-msgstr "Domišljija"
+#: ../data/sampala.desktop.in.in.h:3
+msgid "Vala application that can serve as a learnign example"
+msgstr "Vala program, ki lahko služi kot vzorec za učenje"
 
-#: ../src/imagination.vala:13
-msgid "Sample app"
-msgstr "Vzorčna applikacija"
+#: ../src/sampala-gauge.vala:25
+msgid "Sample gauge"
+msgstr "Vzorčni merilnik"

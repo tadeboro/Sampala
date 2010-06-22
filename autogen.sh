@@ -1,21 +1,7 @@
-#!/bin/sh
-# Run this to generate all the initial makefiles, etc.
-
-srcdir=`dirname $0`
-test -z "$srcdir" && srcdir=.
-
-PKG_NAME="Sampala"
-REQUIRED_AUTOMAKE_VERSION=1.11
-
-(test -f $srcdir/src/sampala.vala) || {
-    echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
-    echo " top-level $PKG_NAME directory"
-    exit 1
-}
-
-which gnome-autogen.sh || {
-    echo "You need to install gnome-common from the GNOME CVS"
-    exit 1
-}
-
-. gnome-autogen.sh
+test -n "$srcdir" || srcdir=$(dirname "$0")
+test -n "$srcdir" || srcdit=.
+(
+  cd "$srcdir" &&
+  AUTOPOINT='intltoolize --automake --copy' autoreconf -fiv
+) || exit
+test -n "$NOCONFIGURE" || "$srcdir/configure" --enable-maintainer-mode "$@"

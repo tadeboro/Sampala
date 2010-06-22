@@ -1,3 +1,4 @@
 [encoding: UTF-8]
 data/sampala.desktop.in.in
 src/sampala-gauge.vala
+src/sampala-app.vala

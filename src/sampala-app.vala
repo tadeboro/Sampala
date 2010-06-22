@@ -30,7 +30,7 @@ public class Sample.App : Window
 					 needle;
 		string       path;
 
-		set_title( Config.PACKAGE_STRING );
+		set_title( _("Sample Vala application") );
 		set_default_size( 300, 200 );
 		this.destroy.connect( Gtk.main_quit );
 

@@ -1,6 +1,6 @@
 # configure.ac
 
-AC_INIT([Sampala], [0.1])
+AC_INIT([Sampala], [0.2])
 AC_CONFIG_SRCDIR([src/sampala.vala])
 AC_CONFIG_HEADERS([config.h])
 

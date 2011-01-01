@@ -1,6 +1,6 @@
 # configure.ac
 
-AC_INIT([Sampala], [0.2])
+AC_INIT([Sampala],[0.2])
 AC_CONFIG_SRCDIR([src/sampala.vala])
 AC_CONFIG_HEADERS([config.h])
 
@@ -15,7 +15,7 @@ AC_PROG_CC
 AC_PROG_CC_STDC
 AM_PROG_VALAC([0.7.0])
 AC_PROG_INSTALL
-AC_PROG_INTLTOOL([0.35])
+IT_PROG_INTLTOOL([0.35])
 
 pkg_modules="gtk+-2.0 >= 2.14.0"
 SAMPALA_PACKAGES="--pkg gtk+-2.0"

@@ -1,0 +1,20 @@
+name: Check Migration Conflicts
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  check-migrations:
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/master'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Fetch all branches
+        run: git fetch origin/master
+
+      - name: Find differences
+        run: git worktree add __master origin/master
